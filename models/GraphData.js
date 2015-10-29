@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var GraphDataSchema = new mongoose.Schema({
+var FruitDataSchema = new mongoose.Schema({
   Year: String,
   Sales: String,
   Expenses: String
