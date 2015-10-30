@@ -1,10 +1,10 @@
 var mongoose = require('mongoose');
 
-var GraphDataSchema = new mongoose.Schema({
-  Year: String,
-  Category: String,
-  Type: String
-  Five or more servings of fruits and vegetables (%): String
+var FruitDataSchema = new mongoose.Schema({
+  FIELD1: String,
+  FIELD2: String,
+  FIELD3: String,
+  FIELD4: String
 }, 
 {
   collection: 'fruit-data-collection'
